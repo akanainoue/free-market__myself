@@ -1,0 +1,139 @@
+/* nav */
+.form-search{
+    width: 40%;
+}
+
+.keyword-input{
+    width: 100%;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    color: black;
+    padding-left: 10px;
+
+}
+
+.nav-buttons{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn--a{
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn--b{
+    font-size: 18px;
+    padding: 5px 13px;
+    border-radius: 3px;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* content */
+.container{
+    width: 40%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.title{
+    text-align: center;
+}
+.product-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.image-select-btn{
+    border: #FF5555 1px solid;
+    border-radius: 4px;
+    color: #FF5555;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: small;
+    cursor: pointer;
+
+}
+.form-label{
+    font-weight: bold;
+    display: block;
+}
+.image-upload{
+    width: 100%;
+    padding: 30px;
+    border: 1px #ccc dashed;
+    text-align: center;
+}
+.category-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.category-option{
+    display: block;
+    border: 2px solid rgb(255, 86, 85);
+    border-radius: 30px;
+    padding: 2px 8px;
+    color: rgb(255, 86, 85);
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.category-option:hover,
+input:checked +.category-option {
+    background-color: #f66;
+    color: white;
+}
+/* チェックされたinputの直後のlabel に色を付けられる */
+.section-title{
+    color: grey;
+    border-bottom: #ccc 1px solid;
+    padding-bottom: 20px;
+}
+.form-select{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #666;
+    color: #fff;
+    border: 2px solid #999;
+    border-radius: 6px;
+    appearance: none;        /* ← 超重要 */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.form-input{
+    width: 100%;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+}
+.form-textarea{
+    width: 100%;
+    min-height: 120px;
+    padding: 10px;
+    appearance: none;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+.submit-button{
+    padding: 10px;
+    color: white;
+    border: none;
+    background-color: rgb(255, 86, 85);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form__error-message{
+    margin: 0;
+    color: red;
+    font-size: small;
+}

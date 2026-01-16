@@ -1,0 +1,129 @@
+/* nav */
+.form-search{
+    width: 40%;
+}
+
+.keyword-input{
+    width: 100%;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    color: black;
+    padding-left: 10px;
+
+}
+
+.nav-buttons{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn--a{
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn--b{
+    font-size: 18px;
+    padding: 5px 13px;
+    border-radius: 3px;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+}
+/* *{
+    border: red 1px solid;
+} */
+
+/* content */
+.tab-menu{
+    margin-top:100px;
+    border-bottom: 1px solid #ccc;
+}
+.tab-menu>a {
+    text-decoration: none;
+    margin-left:50px;
+    display: inline-block;
+    font-size: 20px;
+    color: #000;
+}
+.tab-menu a.active {
+    color: red;
+}
+.item-list{
+    margin:50px auto;
+    width:95%;
+    display:flex;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+
+/* .item-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+} */
+.item-image{
+    width:280px;
+    height:280px;
+    object-fit:cover;
+}
+
+svg.w-5.h-5 {
+    /*paginateメソッドの矢印の大きさ調整のために追加*/
+    width: 30px;
+    height: 30px;
+}
+.pagination {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.profile-section{
+    width:70%;
+    margin: 50px auto;
+    display:flex;
+    align-items:center;
+    gap:50px
+}
+
+.edit-link-wrapper{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 768px){
+    .edit-link-wrapper{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+}
+
+.profile-image{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    background-color:#ccc;
+}
+.name{
+    font-weight:bold;
+    font-size:24px;
+}
+.edit-profile-button{
+    text-decoration:none;
+    border:1px solid rgb(255, 85, 85);
+    color: rgb(255, 85, 85);
+    padding: 6px 25px;
+    font-size:20px;
+    font-weight:bold;
+    border-radius:5px;
+    
+}
